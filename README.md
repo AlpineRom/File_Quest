@@ -15,4 +15,4 @@ Android File Manager capable of modifying system files and take backups of apps.
   
 To Build this app add "Title Page Indicator Library" to this project....
 
-                                              "Enjoy"
+                                              
