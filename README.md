@@ -1,5 +1,9 @@
 File_Quest
 ==========
+
+Copyright(c) 2013 ANURAG 
+anurag.dev1512@gmail.com
+
 Android File Manager capable of modifying system files and take backups of apps...
   * Displays the different types of files in a categorised manner..
   * Unique menu implementation that no one have ever seen..
