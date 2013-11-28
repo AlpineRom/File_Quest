@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:orientation="vertical" 
+    android:background="@drawable/popup_black" 
+    android:padding="5dp"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical">
+        <ImageView 
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_launcher_stats" 
+            android:layout_width="45.0dip" 
+            android:layout_height="45.0dip" />
+        <TextView 
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold" 
+            android:id="@+id/Stats" 
+            android:paddingLeft="10.0dip" 
+            android:paddingTop="15.0dip" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="STATS OF -" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:background="#ff33b5e5" 
+        android:layout_width="fill_parent" 
+        android:layout_height="0.0dip" 
+        android:layout_weight="0.03" />
+    
+    <LinearLayout 
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_weight="5"
+        android:orientation="vertical" 
+        android:background="@drawable/background" 
+        android:layout_width="fill_parent" 
+        android:layout_height="0.0dip">
+        <TextView 
+            android:paddingTop="5dp"
+            android:id="@+id/statsDirName" 
+            android:textStyle="bold"
+            android:paddingLeft="10.0dip" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" />
+        <TextView 
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="done"
+            android:id="@+id/statsHiddenFolders" 
+            android:paddingLeft="10.0dip" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" />
+        <TextView 
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="done"
+            android:id="@+id/statsFolderCount" 
+            android:paddingLeft="10.0dip"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" />
+        <TextView 
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="done"
+            android:id="@+id/statsFileCount" 
+            android:paddingLeft="10.0dip" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" />
+        <TextView 
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="done"
+            android:id="@+id/statsFolderSize" 
+            android:paddingLeft="10.0dip" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" />
+        <LinearLayout 
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ProgressBar 
+                android:id="@+id/statsRoundBar"
+                android:layout_gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="40dp"/>
+            
+            <ProgressBar 
+            android:layout_gravity="center" 
+            android:id="@+id/statsProgressBar" 
+            android:paddingLeft="10.0dip" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            style="?android:attr/progressBarStyleHorizontal" />
+            
+        </LinearLayout>
+    </LinearLayout>
+       
+</LinearLayout>

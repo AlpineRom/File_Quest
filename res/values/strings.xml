@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="New">New</string>
+    <string name="versionCode">105</string>
+    <string name="version">     1.0.5</string>
+    <string name="app_name">File Quest</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>
+    <string name="copy">Copy/Select</string>
+    <string name="cut">Cut</string>
+    <string name="paste">Paste</string>
+    <string name="delete">Delete</string>
+	<string name="rename">Rename</string>
+	<string name="properties">Properties</string>
+	<string name="send">Send</string>
+	<string name="archive">Archive</string>
+	<string name="empty">No Files</string>
+	<string name="cancel">Cancel</string>
+	<string name="overwrite">Overwrite</string>
+</resources>

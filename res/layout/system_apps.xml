@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:onClick="onClick"  
+    android:id="@+id/cleanBackups"
+    android:background="@drawable/action_item_btn"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout 
+        android:orientation="horizontal" 
+        android:paddingLeft="10dip" 
+        android:paddingTop="5dip" 
+        android:paddingRight="10dp"
+        android:layout_width="fill_parent" 
+        android:layout_height="0.0dip" 
+        android:layout_weight="5.0">
+        <Button
+            android:padding="10dp" 
+            android:clickable="false" 
+            android:background="@drawable/ic_launcher_move" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:orientation="horizontal" 
+        android:padding="1.0dip" 
+        android:layout_width="fill_parent" 
+        android:layout_height="0.0dip" 
+        android:layout_weight="2.0">
+        <TextView 
+            android:textSize="9.0sp" 
+            android:textStyle="bold" 
+            android:gravity="center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:text="Clean Backup" />
+    </LinearLayout>
+</LinearLayout>
