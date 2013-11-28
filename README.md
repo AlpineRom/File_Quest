@@ -2,6 +2,7 @@ File_Quest
 ==========
 
 Copyright(c) 2013 ANURAG 
+
 anurag.dev1512@gmail.com
 
 Android File Manager capable of modifying system files and take backups of apps...
